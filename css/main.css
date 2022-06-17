@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+    overflow-x: hidden;
+}
+
+/* Menu */ 
+
+#menu a{
+
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(69, 134, 134);
+}
+
+#menu button{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* SLIDER */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* Navs & tabs de productos */
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu >li > a {
+    display: block;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FEATURES
+/*-----------------------------------------------------------------------------------*/
+
+.features{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: rgb(85, 70, 172);
+}
+
+.features p {
+	font-weight: 400;
+}
+
+.features h2{
+	color: #8b2c2c;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.features .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #000000;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.features span.glyphicon, .features i{
+	margin-top: 3px;
+	color: #000000;
+	font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#pieizq{
+    
+    float: left;
+    color: black;
+    text-align: left;
+    margin-right:72px;
+    margin-left: 72px;
+    background-color: white;
+    
+
+}
+#pieder{
+    float: right;
+    margin-top: 0%;
+    text-align: center;
+    margin-right: 5%;
+    color: rgb(30, 160, 36);
+    background-color: white;
+    
+         
+    
+}
+footer .redes:hover{
+    border-radius: 100px;
+    background-color: black;
+}
